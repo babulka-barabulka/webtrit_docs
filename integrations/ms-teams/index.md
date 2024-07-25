@@ -18,17 +18,17 @@
     "packageName": "com.microsoft.teams.extension",
     "developer": {
         "name": "WebTrit",
-        "websiteUrl": "https://www.portaone.com/",
-        "privacyUrl": "https://www.portaone.com/privacy/portaphone-ms-teams",
-        "termsOfUseUrl": "https://www.portaone.com/terms-of-use"
+        "websiteUrl": "https://www.webtrit.com/",
+        "privacyUrl": "https://webtrit.com/legal/privacy-policy/",
+        "termsOfUseUrl": "https://webtrit.com/legal/terms-of-use/"
     },
     "icons": {
         "color": "color.png",
         "outline": "outline.png"
     },
     "name": {
-        "short": "PortaPhone",
-        "full": "PortaPhone Web for MS Teams"
+        "short": "WebTrit",
+        "full": "WebTrit Web for MS Teams"
     },
     "description": {
         "short": "Short description",
@@ -71,9 +71,9 @@ manifest.json fields to be defined:
 | ---| ---| --- |
 | version | application(tab) version | 1.0.0 |
 | id | unique application identificator | a922a130-a8ee-4c6c-9263-ed9800e50e9e |
-| name | section contain short and full application name | "short": "PortaPhone",<br>"full": "PortaPhone Web for MS Teams" |
-| description | section contain short and full application description | "short": "Connect to your PortaSwitch CloudPBX environment from MS Teams.",<br>"full": "PortaPhone MS Teams allows users of a cloud PBX system (based on PortaSwitch) to connect to it from MS Teams client and make calls to colleagues, external numbers (landline/mobile) and receive incoming calls. A standard set of PBX features such as call transfer, call recording, and corporate directory (list of cloud PBX extensions) are supported. This application uses a demo PortaSwitch environment, operated by PortaOne - contact PortaOne sales team to obtain access credentials. You will log in using your phone number and a one-time password (OTP) will be delivered to your registered email address."<br> |
-| staticTabs | the section describes the resource that will open when you click on the tab | "entityId": "index",<br>"name": "Dialer",<br>"contentUrl": "[https://dialer.demo.portaone.com/](https://dialer.demo.portaone.com/)", |
+| name | section contain short and full application name | "short": "WebTrit",<br>"full": "WebTrit Web for MS Teams" |
+| description | section contain short and full application description | "short": "Connect to your WebTrit CloudPBX environment from MS Teams.",<br>"full": "WebTrit MS Teams allows users of a cloud PBX system (based on WebTrit) to connect to it from MS Teams client and make calls to colleagues, external numbers (landline/mobile) and receive incoming calls. A standard set of PBX features such as call transfer, call recording, and corporate directory (list of cloud PBX extensions) are supported. This application uses a demo WebTrit environment, operated by WebTrit - contact WebTrit sales team to obtain access credentials. You will log in using your phone number and a one-time password (OTP) will be delivered to your registered email address."<br> |
+| staticTabs | the section describes the resource that will open when you click on the tab | "entityId": "index",<br>"name": "Dialer",<br>"contentUrl": "[https://dialer.demo.webtrit.com/](https://dialer.demo.webtrit.com/)", |
 
 6\. After editing manifest.json file folder content will be zipped. Only files without folders. Zip file name not regulated, it is desirable to indicate the name of the application and its version.
 
